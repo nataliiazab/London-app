@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <div className="form-container">
-        <h1 className="contact-heading">Contact Us</h1>
+        <h1 className="contact-heading">Contact the developers of the website: </h1>
         <div className="contact-info">
           <div className="contact-card">
             <h2 className="contact-name">Natalie Zablotska</h2>
@@ -46,14 +46,16 @@ const Contact = () => {
             <h2 className="contact-name">Huimin Lin</h2>
             <p className="LinkedIn-link">
               <a href="https://www.linkedin.com/in/huimin-lin-509b3b101/">
-                LinkedIn{" "}
+                LinkedIn - to be clarified{" "}
               </a>
             </p>
           </div>
           <div className="contact-card">
             <h2 className="contact-name">Lavanya Pedapati</h2>
             <p className="LinkedIn-link">
-              <a href="">LinkedIn - to be clarified </a>
+              <a href="https://www.linkedin.com/in/lavanya-pedapati-94567616/">
+                LinkedIn - to be clarified{" "}
+              </a>
             </p>
           </div>
         </div>
@@ -67,7 +69,6 @@ const Contact = () => {
                 id="name"
                 value={name}
                 onChange={handleNameChange}
-                
               />
             </div>
             <div className="form-group">
@@ -77,7 +78,6 @@ const Contact = () => {
                 id="email"
                 value={email}
                 onChange={handleEmailChange}
-                
               />
             </div>
             <div className="form-group">
