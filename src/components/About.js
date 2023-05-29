@@ -10,7 +10,7 @@ import image7 from "./images/BeddingtonPark1.jpeg";
 import image8 from "./images/Honeywoodmuseum.jpeg";
 import image9 from "./images/LavenderFarm.jpeg";
 
-const About = () => (
+const About = () => {
   return (
     <section className="about-container">
     <div className="content-section">
