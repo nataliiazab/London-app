@@ -1,15 +1,15 @@
 import React from "react";
+import "../App.css";
+import Cards from "./Cards";
+import HeroSection from "./HeroSection";
 
-const Home = () => (
-  <section id="home">
-    <div className="content">
-      <h1>Welcome to London</h1>
-      <p>
-        This will be the intro page with general information, photos, and famous
-        attractions.
-      </p>
-    </div>
-  </section>
-);
+function Home() {
+  return (
+    <>
+      <HeroSection />
+      <Cards />
+    </>
+  );
+}
 
 export default Home;
