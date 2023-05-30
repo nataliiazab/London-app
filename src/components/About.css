@@ -50,3 +50,7 @@
 .Harrow, .Lewisham, .Sutton {
   text-align: center;
 }
+
+.header {
+  margin: 0;
+}
