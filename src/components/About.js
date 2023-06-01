@@ -25,24 +25,33 @@ const About = () => {
           South-east are some of London’s hidden gems.
         </p>
         <h2 className="small-header">Harrow</h2>
-        <p className="Harrow">
-        <img
+          <div className="image-container">
+          <img
             className="image"
             src={image1}
             alt="view from the top"
           />
+          <p className="caption">View from harrow on the hill</p>
+          </div>
+          <div className="image-container">
           <img
             className="image"
             src={image2}
             alt="Harrow on hill High street"
           />
+          <p className="caption">High street</p>
+          </div>
+          <div className="image-container">
           <img
             className="image"
             src={image3}
             alt="The famous residential Harrow public school for boys"
           />
+          <p className="caption">Harrow School</p>
+          </div>
           <br></br>
           <br></br>
+        <p className="Harrow">
           Outside of central London, Harrow has the most number of museums in
           the city. London motorcycle museum, RAF museum and Harrow museum are
           just a few of them. Heath Robinson museum in Harrow displays the works
@@ -60,24 +69,33 @@ const About = () => {
           to tour three times a year.
         </p>
         <h2 className="small-header">Lewisham</h2>
-        <p className="Lewisham">
+        <div className="image-container">
           <img
             className="image"
             src={image4}
             alt="Award-winning Brockley market"
           />
+          <p className="caption">Award-winning Brockley market</p>
+          </div>
+          <div className="image-container">
           <img
             className="image"
             src={image5}
             alt="Horniman Museum and gardens"
           />
+          <p className="caption">Horniman Museum and Gardens</p>
+          </div>
+          <div className="image-container">
           <img
             className="image"
             src={image6}
             alt="Telegraph hill park"
           />
+          <p className="caption">Telegraph Hill Park</p>
+          </div>
           <br></br>
           <br></br>
+          <p className="Lewisham">
           Lewisham is one of South east London’s unsung boroughs that has plenty
           to impress curious visitors. Brockeley Market is an award-winning
           farmer’s and street food market and now attracts customers from all
@@ -93,24 +111,33 @@ const About = () => {
           held each Easter by large number of artists living in the area .
         </p>
         <h2 className="small-header">Sutton</h2>
-        <p className="Sutton">
+        <div className="image-container">
           <img
             className="image"
             src={image7}
             alt="Beddington park in Sutton"
           />
+          <p className="caption">Beddington Park</p>
+          </div>
+          <div className="image-container">
           <img
             className="image"
             src={image8}
             alt="Honeywood museum"
           />
+          <p className="caption">Honeywood Museum</p>
+          </div>
+          <div className="image-container">
           <img
             className="image"
             src={image9}
             alt="Blooms at lavender field"
           />
+          <p className="caption">Lavender Farm</p>
+          </div>
           <br></br>
           <br></br>
+          <p className="Sutton">
           Sutton, the southern edge of Greater London, has been inhabited for
           centuries and is one of London’s greenest boroughs. Sutton is bisected
           by the River Wandle and has many parks. Wandle trail is a 12.5 mile
